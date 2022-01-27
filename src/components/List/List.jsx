@@ -16,7 +16,7 @@ const List = ({ places, childClicked, isLoading, type, rating, setType, setRatin
         const refs = Array(places?.length).fill().map((_, i) => elRefs[i] || createRef());
 
         setElRefs(refs);
-        console.log({elRefs})
+        // console.log({elRefs})
     }, [places]);
 
     return (
